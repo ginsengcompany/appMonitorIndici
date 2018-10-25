@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMonitorIndici.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Style x:Key="labelNere" TargetType="Label">
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+            </Style>
+            <Style x:Key="labelBianche" TargetType="Label">
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+            </Style>
+            <Style x:Key="labelNomeApp" TargetType="Label">
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="FontAttributes" Value="Italic"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+            </Style>
+            <Style x:Key="labelEdwin" TargetType="Label">
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+            </Style>
+            <Style x:Key="labelFooterHeader" TargetType="Label">
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="FontSize" Value="Large" />
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+            </Style>
+            <Style x:Key="labelIntestazioneTabelle" TargetType="Label">
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="FontSize" Value="Large" />
+                <Setter Property="FontAttributes" Value="Bold"/>
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
